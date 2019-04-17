@@ -3,7 +3,7 @@ def reformat_languages(languages)
   
   languages.each do |paradigm, language|
     language.each do |type, language_type|
-      hash[language] = {Array.new}
+      hash[language] = {[]}
       hash[language][type] = language_type
       hash[language][:stlye] << paradigm
     end
