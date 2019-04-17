@@ -8,9 +8,9 @@ def reformat_languages(languages)
         hash[programming_language][:type] = language_type
         
         if hash[programming_language][:style] == nil
-          hash[programming_language][:style] = [style]
+          hash[programming_language][:style] = [paradigm]
         else
-          hash[programming_language][:style] << style
+          hash[programming_language][:style] << paradigm
         end
       end
     end
