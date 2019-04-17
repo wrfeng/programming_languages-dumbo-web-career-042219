@@ -17,8 +17,5 @@ def reformat_languages(languages)
   end
   
   hash
-  binding.pry
 end
 
-
-reformat_languages(languages)
