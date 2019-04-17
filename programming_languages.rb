@@ -5,7 +5,7 @@ def reformat_languages(languages)
     language.each do |type, language_type|
       hash[language] = {}
       hash[language][type] = language_type
-      hash[language][:stlye] << paradigm
+      # hash[language][:stlye] << paradigm
     end
   end
   
