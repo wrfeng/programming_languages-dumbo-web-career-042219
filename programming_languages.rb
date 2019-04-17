@@ -10,7 +10,7 @@ def reformat_languages(languages)
         if hash[programming_language][:style] == nil
           hash[programming_language][:style] = [style]
         else
-          hash[programming_language][:style] << style]
+          hash[programming_language][:style] << style
         end
       end
     end
